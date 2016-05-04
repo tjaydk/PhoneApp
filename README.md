@@ -34,8 +34,10 @@ If you dont want to spend time creating the backend you can use Firebase which a
 Using a native wrapper like Cordova grants you the possibility to compile to native application language. Also there are plugins like GeoLocation and Ionic Keyboard which is created to communicate with native mobile functions. This is a good way to create almost similar to native applications with frameworks like Cordova. Furthermore the Ionic framework builds around create styling that resembles the native platform which makes it 'almost' impossible to tell the difference.
 Explain using an example the "fundamentals" of an ionic application.
 The fundamentals of Ionic is that its a HTML5 language which builds on AngularJS. 
-[See PhoneApp for example](www/js/services.js)
+
+#####See PhoneApp for example
 
 ####Explain using an example how your Hybrid Application communicates with a backend and how CORS problems were solved (if any)
 In this example we use Firebase as our backend and thereby simplyfies the process and avoids the CORS problems. 
-See service 'Login', 'Users'
+
+[See Services.js](www/js/services.js)
