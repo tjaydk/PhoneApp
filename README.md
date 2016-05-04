@@ -21,9 +21,9 @@ The building blocks of a Hybrid app has three key blocks.
 - Select Discover USB Devices.
 - Select your device.
 - To use your device to debug a web application that’s running on your development machine:
-- Click Port forwarding….
-- Set the device port and the localhost port.
-- Select Enable port forwarding. 
+  * Click Port forwarding….
+  * Set the device port and the localhost port.
+  * Select Enable port forwarding. 
 
 ####Explain when and why CORS is a problem for Hybrid Mobile Applications
 Usually you will have an application that uses a backend an sends and recieves data from somewhere else - this can cause a problem as your backend would not allow request from unspecified addresses. 
